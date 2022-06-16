@@ -1,0 +1,5 @@
+config:
+  miniflux-on-digitalocean:adminPassword:
+    secure: AAABACbnPIpIIF3rW3YvCoOWl9oIVDPPAWDVVtiKsJTPS+96Jv6yUHQ=
+  miniflux-on-digitalocean:dbPassword:
+    secure: AAABAEU16p5gXtlbuNuMsibjPscP1ZX2VEQiMHJnz76rQSDI62rm+fk=

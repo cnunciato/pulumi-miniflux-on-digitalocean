@@ -1,0 +1,24 @@
+name: miniflux-on-digitalocean
+runtime: nodejs
+description: An example of how to deploy the Miniflux RSS server on DigitalOcean's App Platform.
+template:
+    config:
+        region:
+            description: The DigitalOcean region to deploy into.
+            default: sfo3
+
+        db_username:
+            description: The name of the PostgreSQL database to be used by Miniflux.
+            default: miniflux
+
+        db_password:
+            description: The PostgreSQL user's password.
+            secret: true
+
+        admin_username:
+            description: The username to use for the Miniflux service administrator account.
+            default: admin
+
+        admin_password:
+            description: The Miniflux administrator's password.
+            secret: true
